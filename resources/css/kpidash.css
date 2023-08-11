@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/*======================================================*/
+/* GENERAL STYLING */
+/*======================================================*/
+body {
+    max-width: 90vw;
+    min-height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E7F2F8;
+    color: #14213d;
+}
+
+.errorMessage {
+    color: red;
+    font-size: larger;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-top: 5vh;
+}
+
+/*======================================================*/
+/* NAVIGATION BAR STYLING */
+/*======================================================*/
+
+.navigationBar {
+    margin: 0px;
+    padding: 20px;
+
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 16px;
+}
+
+.navHeader {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navLinks {
+    color: #14213d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlinkitem {
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    color: #808080;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: color 0.5s;
+}
+
+.navlinkitem:hover {
+    color: #14213d;
+}
+
+#logoutBtn {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #74BDCB;
+    color: #14213d;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#changeYearInput {
+    border: 2px solid #018dc4;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#changeYearBtn {
+    cursor: pointer;
+    margin: 0em 0.3em;
+    padding: 0.3em 0.7em;
+    border: 1px solid #018dc4;
+    border-radius: 10px;
+    color: #14213d;
+    background-color: #74BDCB;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+/*======================================================*/
+/* STATISTICS STYLING */
+/*======================================================*/
+
+.statsSection {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.statCard {
+    width: 20vw;
+
+    margin: 0.5em;
+    padding: 1em;
+
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    background-color: #ffffff;
+    color: #000000;
+
+    text-align: center;
+}
+
+.statHeader {
+    font-weight: bold;
+    font-size: large;
+}
+
+.statQualifier {
+    font-size: small;
+}
+
+.statDivider {
+    width: 90%;
+    color: #14213d;
+}
+
+.statValue {
+    font-weight: bold;
+}
+
+
+/*======================================================*/
+/* CHART STYLING */
+/*======================================================*/
+
+.chartContainer {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.chartCard {
+    flex-grow: 1;
+    width: calc(100% * (1/2) - 3em);
+    margin: 0.5em;
+    padding: 1em;
+
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.chartCardTitleRow {
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.chartDivider {
+    width: 90%;
+    color: #14213d;
+}
+
+.chartCanvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
