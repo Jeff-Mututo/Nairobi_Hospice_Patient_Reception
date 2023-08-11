@@ -27,11 +27,9 @@ This project was completed as part of my final year project. This uses the Larav
 ### Log In Credentials
 
 #### Admin
-Email: admin@gmail.com
-
-Pass: admin1admin1
+- Email: admin@gmail.com
+- Pass: admin1admin1
 
 #### Test User
-Email: testuser1@gmail.com
-
-Pass: user1user1
+- Email: testuser1@gmail.com
+- Pass: user1user1
