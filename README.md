@@ -17,9 +17,9 @@ This project was completed as part of my final year project. This uses the Larav
 - In the project’s root directory, locate the .env.example file.
 - Create a copy of this file and rename it to .env.
 - Open the .env file and configure the necessary environment variables, such as the database name: 'patientmanagement', username: 'root' and password: ''(empty)
-`php artisan key:generate`
-`php artisan migrate`
-`php artisan db:seed`
+- `php artisan key:generate`
+- `php artisan migrate`
+- `php artisan db:seed`
 
 ### Launch The Project
 `php artisan serve`
@@ -28,8 +28,10 @@ This project was completed as part of my final year project. This uses the Larav
 
 #### Admin
 Email: admin@gmail.com
+
 Pass: admin1admin1
 
 #### Test User
 Email: testuser1@gmail.com
+
 Pass: user1user1
