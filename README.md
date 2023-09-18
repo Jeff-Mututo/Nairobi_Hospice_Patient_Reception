@@ -26,7 +26,7 @@ This project was completed as part of my final year project. This uses the Larav
 ### Project Configuration
 - In the project’s directory, locate the *.env.example* file.
 - Create a copy of this file and rename it to *.env*
-- Open the .env file and configure the necessary database variables
+- Open the .env file and configure the following database variables to match the DB you created
 
 ![screenshot of the .env file](https://imgur.com/9tFMKpM.png)
 
