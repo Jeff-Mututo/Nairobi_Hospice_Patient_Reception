@@ -47,7 +47,7 @@ This project was completed as part of my final year project. This uses the Larav
 
 `php artisan serve`
 
-### Log In Credentials
+### Placeholder Log In Credentials
 
 #### Admin
 - Email: admin@gmail.com
