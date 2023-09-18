@@ -8,20 +8,33 @@ This project was completed as part of my final year project. This uses the Larav
 
 ## Running The Application
 
+### Download Tools
+- Firstly, make sure you have PHP v8.1 or HIGHER installed on your machine
+- Download [Composer](https://getcomposer.org/)
+- Download [NodeJS](https://nodejs.org/en)
+
 ### Install Dependencies
-- Firstly, make sure you have php and composer installed.
-- Navigate to project directory
+- Navigate to the project directory where all the files are located. For example: C:\Users\User\MyProject
 `composer install`
+`npm install`
+
+### Database Setup
+- Create a new database with whatever name and credentials you want
 
 ### Project Configuration
-- In the project’s root directory, locate the .env.example file.
-- Create a copy of this file and rename it to .env.
-- Open the .env file and configure the necessary environment variables, such as the database name: 'patientmanagement', username: 'root' and password: ''(empty)
-- `php artisan key:generate`
-- `php artisan migrate`
-- `php artisan db:seed`
+- In the project’s directory, locate the *.env.example* file.
+- Create a copy of this file and rename it to *.env*
+- Open the .env file and configure the necessary database variables
+![screenshot of the .env file](public\images\example_env.png)
+- Now run the following commands
+`php artisan key:generate`
+`php artisan migrate`
+`php artisan db:seed`
+- Your DB is now created with some placeholder logins to get you started
 
 ### Launch The Project
+- Leave these commands running in 2 separate terminal windows
+`npm run dev`
 `php artisan serve`
 
 ### Log In Credentials
