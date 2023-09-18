@@ -15,7 +15,9 @@ This project was completed as part of my final year project. This uses the Larav
 
 ### Install Dependencies
 - Navigate to the project directory where all the files are located. For example: C:\Users\User\MyProject
+
 `composer install`
+
 `npm install`
 
 ### Database Setup
@@ -25,16 +27,24 @@ This project was completed as part of my final year project. This uses the Larav
 - In the project’s directory, locate the *.env.example* file.
 - Create a copy of this file and rename it to *.env*
 - Open the .env file and configure the necessary database variables
+
 ![screenshot of the .env file](public\images\example_env.png)
+
 - Now run the following commands
+
 `php artisan key:generate`
+
 `php artisan migrate`
+
 `php artisan db:seed`
+
 - Your DB is now created with some placeholder logins to get you started
 
 ### Launch The Project
 - Leave these commands running in 2 separate terminal windows
+
 `npm run dev`
+
 `php artisan serve`
 
 ### Log In Credentials
