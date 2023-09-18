@@ -137,48 +137,5 @@
             </div>
         </form>
     </div>
-
-    <hr class="horiBar">
-
-    <div class="addPatientContainer">
-        <h2 class="addPatientSectionTitle">Make A Prediction</h2>
-
-        @if(session('predictionData'))
-            <div class="errorMessage">
-                {{ session('predictionData') }}
-            </div>
-        @endif
-
-        <form action="{{ route('makePrediction') }}" method="post" class="addPatientForm">
-            @csrf
-            <label for="arg_fever" id="addPatientLabel">Fever</label><br>
-            <input type="text" id="addPatientInput" name="arg_fever" placeholder="arg_fever" required><br>
-
-            <label for="arg_cough" id="addPatientLabel">Cough</label><br>
-            <input type="text" id="addPatientInput" name="arg_cough" placeholder="arg_cough" required><br>
-
-            <label for="arg_fatigue" id="addPatientLabel">Fatigue</label><br>
-            <input type="text" id="addPatientInput" name="arg_fatigue" placeholder="arg_fatigue" required><br>
-
-            <label for="arg_diff_breathing" id="addPatientLabel">Difficulty Breathing</label><br>
-            <input type="text" id="addPatientInput" name="arg_diff_breathing" placeholder="arg_diff_breathing" required><br>
-
-            <label for="arg_age" id="addPatientLabel">Age</label><br>
-            <input type="text" id="addPatientInput" name="arg_age" placeholder="arg_age" required><br>
-
-            <label for="arg_gender" id="addPatientLabel">Gender</label><br>
-            <input type="text" id="addPatientInput" name="arg_gender" placeholder="arg_gender" required><br>
-            
-            <label for="arg_bp" id="addPatientLabel">Blood Pressure</label><br>
-            <input type="text" id="addPatientInput" name="arg_bp" placeholder="arg_bp" required><br>
-
-            <label for="arg_cholesterol_lvl" id="addPatientLabel">Cholesterol Level</label><br>
-            <input type="text" id="addPatientInput" name="arg_cholesterol_lvl" placeholder="arg_cholesterol_lvl" required><br>
-
-            <div class="addPatientBtnContainer">
-                <input type="submit" value="Make Prediction" id="addNewPatientBtn">
-            </div>
-        </form>
-    </div>
 </body>
 </html>

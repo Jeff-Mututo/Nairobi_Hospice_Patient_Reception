@@ -14,7 +14,6 @@
         <div class="userNavName">Welcome, <b>{{ Auth::user()->name }}</b></div>
         <div class="navHeader">Nairobi Hospice Admin Panel</div>
         <div class="navLinks">
-            <a href="{{ URL('/admin/kpidash') }}" class="navlinkitem">KPIs</a>
             <a href="{{ URL('/profile') }}" class="navlinkitem">Profile</a>
             <form method="POST" action="{{ route('logout') }}">
                 @csrf

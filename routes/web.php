@@ -5,7 +5,6 @@ use App\Http\Controllers\RouteController;
 use App\Http\Controllers\DashController;
 use App\Http\Controllers\PatientController;
 use App\Http\Controllers\AdminController;
-use App\Http\Controllers\KPIController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -39,11 +38,6 @@ Route::get('/checkUserType', [RouteController::class, 'checkUserType'])
 Route::get('/admin', [AdminController::class, 'admin'])
     ->middleware(['auth', 'admin'])
     ->name('admin');
-
-    // LOAD the KPI DASHBOARD for the user
-Route::get('/admin/kpidash', [KPIController::class, 'kpidash'])
-    ->middleware(['auth', 'admin'])
-    ->name('kpidash');
 
     // SEARCH for a USER
 Route::post('/searchUser', [AdminController::class, 'searchUser'])
