@@ -28,7 +28,7 @@ This project was completed as part of my final year project. This uses the Larav
 - Create a copy of this file and rename it to *.env*
 - Open the .env file and configure the necessary database variables
 
-![screenshot of the .env file](https://imgur.com/9tFMKpM)
+![screenshot of the .env file](https://imgur.com/9tFMKpM.png)
 
 - Now run the following commands
 
